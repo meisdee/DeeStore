@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <title>Accessories | Dee store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="about.html"><img src="Img/logo2.png" width=125px></a> 
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="Products.html">All Products</a></li>
+                        <li><a href="contact.html">About</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+              <a href="cartstore.html">  <img src="Img/cart.png" alt="" width="28px" height="28px"></a>
+                <img src="Img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+<div class="sec">
+    <div class="welcome welcome1">
+        <h2>Accessories</h2>
+        <select>
+            <option>Price High to Low</option>
+            <option>Price Low to High</option>
+            <option>Recommended</option>
+            <option>Best Selling</option>
+        </select>
+    </div>
+    <div class="welcome">
+        <!--2--><div class="third">
+            <img src="Img/Pendants.jpg" alt="">
+            <h5>Aesthetic crescent moon Pendant</h5>
+            <p>$15.50</p>
+        </div>
+            <!--4--> <div class="third">
+                <img src="Img/prod2.png" alt="">
+                <h5>Butterfly Box Earrings</h5>
+                <p>$8.99</p>
+            </div>
+             <!--1-->   <div class="third">
+                <img src="Img/prod16.jpg" alt="">
+                <h5>Designer Bag</h5>
+                <p>$32.00</p>
+            </div>
+                  <!--5-->  <div class="third">
+                    <img src="Img/prod6.jpg" alt="">
+                    <h5>Mint Leather Bag</h5>
+                    <p>$30.00</p>
+                </div>
+                     <!--18--><div class="third">
+                        <img src="Img/Acccessories1.jpg" alt="">
+                        <h5>Stone Pendant</h5>
+                        <p>$14.80</p>
+                    </div>
+             <!--8--><div class="third">
+            <img src="Img/prod9.jpg" alt="">
+            <h5>Gucci Green Bag</h5>
+            <p>$48.99</p>
+             </div>
+                     <!--18--><div class="third">
+                        <img src="Img/aP1.png" alt="">
+                        <h5>Lock Pendant chains and bracelet</h5>
+                        <p>$34.80</p>
+                    </div>
+                     <!--19--><div class="third">
+                        <img src="Img/prod4.jpg" alt="">
+                        <h5>Set Of 3 Jute Handpicked Bags</h5>
+                        <p>$68.33</p>
+                    </div>
+        </div>
+<!---------Footer------->   
+<div class="footer">
+    <div class="container">
+        <div class="welcome">
+            <div class="foot1">
+                <h3>Download Dee'Store App</h3>
+                <p>Get the app on your android or ios phone.</p>
+                <div class="app-logo">
+                    <img src="Img/play-store.png" alt="">
+                    <img src="Img/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="foot2">
+                <img src="Img/logo2.png" alt="">
+                <p>Get the app on your android or ios phone.</p>
+            </div>
+            <div class="foot3">
+                <h3>Follow Us On:</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Pinterest</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 -- Dee'Store</p>
+    </div>
+</div>
+<!-----js for toggle----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+           {
+               MenuItems.style.maxHeight="200px";
+           }
+        else
+           {
+            MenuItems.style.maxHeight="0px";
+           }
+    }
+</script>
+</body>
+</html>
